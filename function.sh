@@ -17,6 +17,6 @@ src
 ;;
 n) 
 echo "you typed no "
-echo "exited"
+echo "you are exited"
 ;;
 esac

@@ -6,7 +6,7 @@ touch createdfile
 set +x
 cd /home/ec2-user/shellscripts/
 source ./jeya.sh
-if [ $? ]
+if [ $? -eq 0 ]
 then 
 echo "file is there"
 else

@@ -10,3 +10,4 @@ echo "df -kh - this for mount points"
 echo "sudo ss -tulpn | grep tcp - for port is enable or not "
 }
 src
+

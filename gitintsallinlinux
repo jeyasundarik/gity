@@ -13,10 +13,10 @@ yum install wget tar -y
 ##Open below URL and select the specific version and right click on that and click on Copy Link ##Address, then execute the wget command.
 ##https://github.com/git/git/releases
 
-wget https://github.com/git/git/archive/v2.18.0.tar.gz -O git-bash.tar.gz
+wget https://github.com/git/git/archive/refs/tags/v2.34.1.tar.gz -O git-bash.tar.gz
 tar -zxf git-bash.tar.gz
 
-cd git-2.18.0
+cd git-2.34.1
 make configure
 ./configure --prefix=/usr/local
 ##make install command will copy the built program, and its libraries and documentation, to the correct locations.

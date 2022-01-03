@@ -5,7 +5,6 @@ cd /opt
 java -version
 yum install wget -y
 #check the latest version of java in https://www.oracle.com/java/technologies/downloads
-wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm
-yum install jdk-17_linux-x64_bin.rpm -y
+wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn/java/jdk/8u311-b11/4d5417147a92418ea8b615e228bb6935/jdk-8u311-linux-x64.rpm
+yum install jdk-8u311-linux-x64.rpm -y
 java -version
-
